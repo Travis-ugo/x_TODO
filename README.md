@@ -1,6 +1,4 @@
-# x_todo
-
-A new Flutter project.
+# x_Todo
 
 ## Getting Started
 
