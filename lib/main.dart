@@ -64,36 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-class MemberProfileWidget extends StatelessWidget {
-  const MemberProfileWidget({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Container(
-          height: 55,
-          width: 50,
-          margin: const EdgeInsets.all(5),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(10),
-            color: const Color.fromARGB(255, 13, 7, 70),
-          ),
-          child: const Center(
-              child: Icon(
-            Icons.add,
-            color: Colors.white,
-            size: 35,
-          )),
-        ),
-        const CircleAvatar(
-          backgroundColor: Colors.green,
-          radius: 5,
-        )
-      ],
-    );
-  }
-}
 
 class DeskWidget extends StatelessWidget {
   const DeskWidget({super.key});
